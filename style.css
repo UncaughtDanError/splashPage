@@ -6,31 +6,55 @@ dark gray: #111217;
 light gray for text: #CCCCDC;
 Blue: #336BE4; */
 
+/* .top.scrolled {
+    color:#000;
+    text-shadow: 0px 0px 2px #fff;
+    opacity:1;
+  }
+
+.top {
+    position: fixed;
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
+    bottom:1.5rem;
+    right:1.5rem;
+    width:3rem;
+    height:3rem;
+    line-height: 3rem;
+    font-size:1.5rem;
+    border-radius: .5rem;
+    border:1px solid white;
+    box-shadow: 0 0 2px 0px white;
+    transition: opacity 1s ease;
+    opacity:0;
+    cursor: pointer;
+  } */
+
 body {
     background-color: #111217;
     margin: 0px;
-    padding-top: 100px;
+    padding-top:20px;
 }
 
-#nav {
+nav {
     background-color: #171A1E;
-    /* border-bottom: 5px solid #111217; */
     padding: 10px;
     position: fixed;
+    display: block;
     width: 100%;
     top: 0px;
-    box-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 5px black;
     z-index: 100;
 }
 
-#nav ul {
+nav ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     text-align: center;
 }
 
-#nav ul li {
+nav ul li {
     display: inline-block;
     color: white;
     background-color: #336BE4;
@@ -40,7 +64,7 @@ body {
     font-family:  'Varela Round', sans-serif;
 }
 
-#nav li a {
+nav li a {
     display: block;
     color: white;
     padding: 10px;
@@ -125,13 +149,12 @@ h1  {
     box-shadow: 0px 0px 10px black;
     padding-top: 20px;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .team-member {
     display: inline-block;
     margin: 20px;
-    /* max-width: 250px; */
-    /* min-width: 100px; */
 }
 
 .team-member-picture {
@@ -145,6 +168,18 @@ h1  {
     font-size: 18px;
     font-family:  'Varela Round', sans-serif;
     text-decoration: none;
+}
+
+#features {
+    text-align:center;
+    margin: 0px auto;
+    background-color: #171A1E;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 p {
